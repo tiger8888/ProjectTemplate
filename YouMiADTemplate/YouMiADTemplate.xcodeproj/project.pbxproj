@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4D8AB91A26B6930021F941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D8AB81A26B6930021F941 /* main.m */; };
+		0A4D8ABC1A26B6930021F941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D8ABB1A26B6930021F941 /* AppDelegate.m */; };
+		0A4D8ABF1A26B6930021F941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D8ABE1A26B6930021F941 /* ViewController.m */; };
+		0A4D8AC21A26B6930021F941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D8AC01A26B6930021F941 /* Main.storyboard */; };
+		0A4D8AC41A26B6940021F941 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D8AC31A26B6940021F941 /* Images.xcassets */; };
+		0A4D8AC71A26B6940021F941 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D8AC51A26B6940021F941 /* LaunchScreen.xib */; };
+		0A4D8AD31A26B6940021F941 /* YouMiADTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D8AD21A26B6940021F941 /* YouMiADTemplateTests.m */; };
+		0A4D8AEA1A26C0CC0021F941 /* libYouMi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D8AE91A26C0CC0021F941 /* libYouMi.a */; };
+		0A4D8AEC1A26C3CE0021F941 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D8AEB1A26C3CE0021F941 /* Security.framework */; };
+		0A4D8AEE1A26C3D50021F941 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D8AED1A26C3D50021F941 /* SystemConfiguration.framework */; };
+		0A4D8AF01A26C3DC0021F941 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D8AEF1A26C3DC0021F941 /* CFNetwork.framework */; };
+		0A4D8AF21A26C3E20021F941 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D8AF11A26C3E20021F941 /* QuartzCore.framework */; };
+		0A4D8AF41A26C3EA0021F941 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D8AF31A26C3EA0021F941 /* libsqlite3.dylib */; };
+		0A4D8AF61A26C3F20021F941 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D8AF51A26C3F20021F941 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A4D8ACD1A26B6940021F941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4D8AAB1A26B6930021F941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4D8AB21A26B6930021F941;
+			remoteInfo = YouMiADTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4D8AB31A26B6930021F941 /* YouMiADTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouMiADTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4D8AB71A26B6930021F941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4D8AB81A26B6930021F941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A4D8ABA1A26B6930021F941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A4D8ABB1A26B6930021F941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A4D8ABD1A26B6930021F941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A4D8ABE1A26B6930021F941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A4D8AC11A26B6930021F941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A4D8AC31A26B6940021F941 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A4D8AC61A26B6940021F941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A4D8ACC1A26B6940021F941 /* YouMiADTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouMiADTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4D8AD11A26B6940021F941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4D8AD21A26B6940021F941 /* YouMiADTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouMiADTemplateTests.m; sourceTree = "<group>"; };
+		0A4D8ADF1A26C0CC0021F941 /* YouMiConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiConfig.h; sourceTree = "<group>"; };
+		0A4D8AE01A26C0CC0021F941 /* YouMiDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiDelegateProtocol.h; sourceTree = "<group>"; };
+		0A4D8AE11A26C0CC0021F941 /* YouMiPointsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiPointsManager.h; sourceTree = "<group>"; };
+		0A4D8AE21A26C0CC0021F941 /* YouMiSpots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiSpots.h; sourceTree = "<group>"; };
+		0A4D8AE31A26C0CC0021F941 /* YouMiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiView.h; sourceTree = "<group>"; };
+		0A4D8AE41A26C0CC0021F941 /* YouMiWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiWall.h; sourceTree = "<group>"; };
+		0A4D8AE51A26C0CC0021F941 /* YouMiWallAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiWallAppModel.h; sourceTree = "<group>"; };
+		0A4D8AE61A26C0CC0021F941 /* YouMiWallBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiWallBanner.h; sourceTree = "<group>"; };
+		0A4D8AE71A26C0CC0021F941 /* YouMiWallSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiWallSpot.h; sourceTree = "<group>"; };
+		0A4D8AE81A26C0CC0021F941 /* YouMiWallSpotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiWallSpotView.h; sourceTree = "<group>"; };
+		0A4D8AE91A26C0CC0021F941 /* libYouMi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYouMi.a; sourceTree = "<group>"; };
+		0A4D8AEB1A26C3CE0021F941 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0A4D8AED1A26C3D50021F941 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A4D8AEF1A26C3DC0021F941 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0A4D8AF11A26C3E20021F941 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A4D8AF31A26C3EA0021F941 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0A4D8AF51A26C3F20021F941 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4D8AB01A26B6930021F941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D8AF61A26C3F20021F941 /* StoreKit.framework in Frameworks */,
+				0A4D8AF41A26C3EA0021F941 /* libsqlite3.dylib in Frameworks */,
+				0A4D8AF21A26C3E20021F941 /* QuartzCore.framework in Frameworks */,
+				0A4D8AF01A26C3DC0021F941 /* CFNetwork.framework in Frameworks */,
+				0A4D8AEE1A26C3D50021F941 /* SystemConfiguration.framework in Frameworks */,
+				0A4D8AEC1A26C3CE0021F941 /* Security.framework in Frameworks */,
+				0A4D8AEA1A26C0CC0021F941 /* libYouMi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D8AC91A26B6940021F941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4D8AAA1A26B6930021F941 = {
+			isa = PBXGroup;
+			children = (
+				0A4D8AB51A26B6930021F941 /* YouMiADTemplate */,
+				0A4D8AF71A26C4140021F941 /* frameworks */,
+				0A4D8ACF1A26B6940021F941 /* YouMiADTemplateTests */,
+				0A4D8AB41A26B6930021F941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4D8AB41A26B6930021F941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8AB31A26B6930021F941 /* YouMiADTemplate.app */,
+				0A4D8ACC1A26B6940021F941 /* YouMiADTemplateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4D8AB51A26B6930021F941 /* YouMiADTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8ADC1A26C0CC0021F941 /* thirdPart */,
+				0A4D8ABA1A26B6930021F941 /* AppDelegate.h */,
+				0A4D8ABB1A26B6930021F941 /* AppDelegate.m */,
+				0A4D8ABD1A26B6930021F941 /* ViewController.h */,
+				0A4D8ABE1A26B6930021F941 /* ViewController.m */,
+				0A4D8AC31A26B6940021F941 /* Images.xcassets */,
+				0A4D8AB61A26B6930021F941 /* Supporting Files */,
+			);
+			path = YouMiADTemplate;
+			sourceTree = "<group>";
+		};
+		0A4D8AB61A26B6930021F941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8AC51A26B6940021F941 /* LaunchScreen.xib */,
+				0A4D8AC01A26B6930021F941 /* Main.storyboard */,
+				0A4D8AB71A26B6930021F941 /* Info.plist */,
+				0A4D8AB81A26B6930021F941 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A4D8ACF1A26B6940021F941 /* YouMiADTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8AD21A26B6940021F941 /* YouMiADTemplateTests.m */,
+				0A4D8AD01A26B6940021F941 /* Supporting Files */,
+			);
+			path = YouMiADTemplateTests;
+			sourceTree = "<group>";
+		};
+		0A4D8AD01A26B6940021F941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8AD11A26B6940021F941 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A4D8ADC1A26C0CC0021F941 /* thirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8ADD1A26C0CC0021F941 /* youmi */,
+			);
+			path = thirdPart;
+			sourceTree = "<group>";
+		};
+		0A4D8ADD1A26C0CC0021F941 /* youmi */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8ADE1A26C0CC0021F941 /* include */,
+				0A4D8AE91A26C0CC0021F941 /* libYouMi.a */,
+			);
+			path = youmi;
+			sourceTree = "<group>";
+		};
+		0A4D8ADE1A26C0CC0021F941 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8ADF1A26C0CC0021F941 /* YouMiConfig.h */,
+				0A4D8AE01A26C0CC0021F941 /* YouMiDelegateProtocol.h */,
+				0A4D8AE11A26C0CC0021F941 /* YouMiPointsManager.h */,
+				0A4D8AE21A26C0CC0021F941 /* YouMiSpots.h */,
+				0A4D8AE31A26C0CC0021F941 /* YouMiView.h */,
+				0A4D8AE41A26C0CC0021F941 /* YouMiWall.h */,
+				0A4D8AE51A26C0CC0021F941 /* YouMiWallAppModel.h */,
+				0A4D8AE61A26C0CC0021F941 /* YouMiWallBanner.h */,
+				0A4D8AE71A26C0CC0021F941 /* YouMiWallSpot.h */,
+				0A4D8AE81A26C0CC0021F941 /* YouMiWallSpotView.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0A4D8AF71A26C4140021F941 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8AF51A26C3F20021F941 /* StoreKit.framework */,
+				0A4D8AF31A26C3EA0021F941 /* libsqlite3.dylib */,
+				0A4D8AF11A26C3E20021F941 /* QuartzCore.framework */,
+				0A4D8AEF1A26C3DC0021F941 /* CFNetwork.framework */,
+				0A4D8AED1A26C3D50021F941 /* SystemConfiguration.framework */,
+				0A4D8AEB1A26C3CE0021F941 /* Security.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4D8AB21A26B6930021F941 /* YouMiADTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4D8AD61A26B6940021F941 /* Build configuration list for PBXNativeTarget "YouMiADTemplate" */;
+			buildPhases = (
+				0A4D8AAF1A26B6930021F941 /* Sources */,
+				0A4D8AB01A26B6930021F941 /* Frameworks */,
+				0A4D8AB11A26B6930021F941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouMiADTemplate;
+			productName = YouMiADTemplate;
+			productReference = 0A4D8AB31A26B6930021F941 /* YouMiADTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4D8ACB1A26B6940021F941 /* YouMiADTemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4D8AD91A26B6940021F941 /* Build configuration list for PBXNativeTarget "YouMiADTemplateTests" */;
+			buildPhases = (
+				0A4D8AC81A26B6940021F941 /* Sources */,
+				0A4D8AC91A26B6940021F941 /* Frameworks */,
+				0A4D8ACA1A26B6940021F941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4D8ACE1A26B6940021F941 /* PBXTargetDependency */,
+			);
+			name = YouMiADTemplateTests;
+			productName = YouMiADTemplateTests;
+			productReference = 0A4D8ACC1A26B6940021F941 /* YouMiADTemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4D8AAB1A26B6930021F941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.ilovejuly;
+				TargetAttributes = {
+					0A4D8AB21A26B6930021F941 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0A4D8ACB1A26B6940021F941 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0A4D8AB21A26B6930021F941;
+					};
+				};
+			};
+			buildConfigurationList = 0A4D8AAE1A26B6930021F941 /* Build configuration list for PBXProject "YouMiADTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A4D8AAA1A26B6930021F941;
+			productRefGroup = 0A4D8AB41A26B6930021F941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4D8AB21A26B6930021F941 /* YouMiADTemplate */,
+				0A4D8ACB1A26B6940021F941 /* YouMiADTemplateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4D8AB11A26B6930021F941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D8AC21A26B6930021F941 /* Main.storyboard in Resources */,
+				0A4D8AC71A26B6940021F941 /* LaunchScreen.xib in Resources */,
+				0A4D8AC41A26B6940021F941 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D8ACA1A26B6940021F941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4D8AAF1A26B6930021F941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D8ABF1A26B6930021F941 /* ViewController.m in Sources */,
+				0A4D8ABC1A26B6930021F941 /* AppDelegate.m in Sources */,
+				0A4D8AB91A26B6930021F941 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D8AC81A26B6940021F941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D8AD31A26B6940021F941 /* YouMiADTemplateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4D8ACE1A26B6940021F941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4D8AB21A26B6930021F941 /* YouMiADTemplate */;
+			targetProxy = 0A4D8ACD1A26B6940021F941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A4D8AC01A26B6930021F941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D8AC11A26B6930021F941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4D8AC51A26B6940021F941 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D8AC61A26B6940021F941 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A4D8AD41A26B6940021F941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4D8AD51A26B6940021F941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4D8AD71A26B6940021F941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YouMiADTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YouMiADTemplate/thirdPart/youmi",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A4D8AD81A26B6940021F941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YouMiADTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YouMiADTemplate/thirdPart/youmi",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A4D8ADA1A26B6940021F941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YouMiADTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouMiADTemplate.app/YouMiADTemplate";
+			};
+			name = Debug;
+		};
+		0A4D8ADB1A26B6940021F941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YouMiADTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouMiADTemplate.app/YouMiADTemplate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4D8AAE1A26B6930021F941 /* Build configuration list for PBXProject "YouMiADTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D8AD41A26B6940021F941 /* Debug */,
+				0A4D8AD51A26B6940021F941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4D8AD61A26B6940021F941 /* Build configuration list for PBXNativeTarget "YouMiADTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D8AD71A26B6940021F941 /* Debug */,
+				0A4D8AD81A26B6940021F941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A4D8AD91A26B6940021F941 /* Build configuration list for PBXNativeTarget "YouMiADTemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D8ADA1A26B6940021F941 /* Debug */,
+				0A4D8ADB1A26B6940021F941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4D8AAB1A26B6930021F941 /* Project object */;
+}
