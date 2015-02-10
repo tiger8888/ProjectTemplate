@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "DBCameraContainerViewController.h"
+#import "TZCustomCameraViewControler.h"
+#import "TZCameraView.h"
 
 @interface DetailViewController : UIViewController {
     UIImageView *_imageView;
@@ -82,10 +84,17 @@
         }
             break;
         case 2:{
-            DBCameraContainerViewController *cameraContainer = [[DBCameraContainerViewController alloc] initWithDelegate:self];
-            [cameraContainer setFullScreenMode];
+//            DBCameraContainerViewController *cameraContainer = [[DBCameraContainerViewController alloc] initWithDelegate:self cameraSettingsBlock:^(TZCameraView *cameraView, id container) {
+//                UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 60, 100, 50)];
+//                label.backgroundColor = [UIColor grayColor];
+//                [cameraView addSubview:label];
+//            }];
+            TZCustomCameraViewControler *customCameraContainer = [[TZCustomCameraViewControler alloc] initWithDelegate:self customCameraBlock:^(TZCameraView *cameraView, id container) {
+                
+            }];
+            [customCameraContainer setFullScreenMode];
             
-            [self presentViewController:cameraContainer animated:YES completion:nil];
+            [self presentViewController:customCameraContainer animated:YES completion:nil];
         }
             break;
         default:
@@ -101,11 +110,7 @@
 
 - (void) camera:(id)cameraViewController didFinishWithImage:(UIImage *)image withMetadata:(NSDictionary *)metadata
 {
-    DetailViewController *detail = [[DetailViewController alloc] init];
-    [detail setDetailImage:image];
-    [self.navigationController pushViewController:detail animated:NO];
-    [cameraViewController restoreFullScreenMode];
-//    [self.presentedViewController dismissViewControllerAnimated:YES completion:nil];
+   
 }
 
 - (void)didReceiveMemoryWarning {
